@@ -1,0 +1,29 @@
+
+D
+java:S2189,""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8èÓÖÇ­2
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(“–ış8ğÓÖÇ­2
+L	java:S106"+Replace this use of System.out by a logger.(Üìæüÿÿÿÿ8óÓÖÇ­2
+G	java:S106"+Replace this use of System.out by a logger.(ŠèÓÖ8óÓÖÇ­2
+G	java:S106"+Replace this use of System.out by a logger.(°àşÄ8ôÓÖÇ­2
+F	java:S106"+Replace this use of System.out by a logger.(¿´Š=8õÓÖÇ­2
+L	java:S106("+Replace this use of System.out by a logger.(ï°Îıÿÿÿÿ8úÓÖÇ­2
+G	java:S106-"+Replace this use of System.out by a logger.(¾ÿĞ‰8úÓÖÇ­2
+L	java:S1061"+Replace this use of System.out by a logger.(î£ë²úÿÿÿÿ8ûÓÖÇ­2
+>	java:S1317""Add a default case to this switch.(¨ÕÉ8ıÓÖÇ­2
+F	java:S106P"+Replace this use of System.out by a logger.(Êµ¢8‚ÔÖÇ­2
+L	java:S106R"+Replace this use of System.out by a logger.(‚×†Õüÿÿÿÿ8‚ÔÖÇ­2
+G	java:S106Y"+Replace this use of System.out by a logger.(Í×Í8ƒÔÖÇ­2
+G	java:S106`"+Replace this use of System.out by a logger.(¨Í³8„ÔÖÇ­2
+L	java:S106e"+Replace this use of System.out by a logger.(Å„É„şÿÿÿÿ8—ÔÖÇ­2
+L	java:S106j"+Replace this use of System.out by a logger.(çÌóëøÿÿÿÿ8˜ÔÖÇ­2
+G	java:S106x"+Replace this use of System.out by a logger.(öÓ˜„8›ÔÖÇ­2
+L	java:S106{"+Replace this use of System.out by a logger.(Å„É„şÿÿÿÿ8›ÔÖÇ­2
+G	java:S106€"+Replace this use of System.out by a logger.(Øü½n8œÔÖÇ­2
+M	java:S106Œ"+Replace this use of System.out by a logger.(†·×Åûÿÿÿÿ8ŸÔÖÇ­2
+M	java:S106"+Replace this use of System.out by a logger.(äÿ †øÿÿÿÿ8 ÔÖÇ­2
+M	java:S106"+Replace this use of System.out by a logger.(­…ãøûÿÿÿÿ8£ÔÖÇ­2
+M	java:S106Ÿ"+Replace this use of System.out by a logger.(»ƒâ™ûÿÿÿÿ8¤ÔÖÇ­2
+H	java:S106¥"+Replace this use of System.out by a logger.(Ò†ŸÆ8¥ÔÖÇ­2
+ã
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 69 to 64, Complexity from 15 to 14, Nesting Level from 3 to 2, Number of Variables from 13 to 6.(“–ış8¦ÔÖÇ­2
