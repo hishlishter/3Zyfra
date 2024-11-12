@@ -5,6 +5,7 @@
       <root url="jar://$PROJECT_DIR$/libs/junit-jupiter-engine-5.10.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/junit-platform-commons-1.10.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/junit-platform-engine-1.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mockito-core-5.14.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

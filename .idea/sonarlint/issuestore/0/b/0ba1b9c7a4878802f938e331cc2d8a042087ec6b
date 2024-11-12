@@ -1,29 +1,5 @@
 
-j
-java:S2189,""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8èÓÖÇ­2J$29f4d43e-bde8-4ab6-858c-259b8fbe2088
-•
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(“–ış8ğÓÖÇ­2J$94507af6-57e4-4439-986e-f5ab99ed1d84
-r	java:S106"+Replace this use of System.out by a logger.(Üìæüÿÿÿÿ8óÓÖÇ­2J$1e2f4de6-51ca-4444-bc62-60b3ff3a5b34
-m	java:S106"+Replace this use of System.out by a logger.(ŠèÓÖ8óÓÖÇ­2J$2b207adb-a9a4-4260-a7ab-60249463b599
-m	java:S106"+Replace this use of System.out by a logger.(°àşÄ8ôÓÖÇ­2J$4391f2f0-b130-48d4-af75-e26e9614da6e
-l	java:S106"+Replace this use of System.out by a logger.(¿´Š=8õÓÖÇ­2J$1c30bc1b-691c-48c0-a55b-9c197b4e995f
-r	java:S106("+Replace this use of System.out by a logger.(ï°Îıÿÿÿÿ8úÓÖÇ­2J$139b42e0-c026-43d7-ba1c-190cd2bd72c9
-m	java:S106-"+Replace this use of System.out by a logger.(¾ÿĞ‰8úÓÖÇ­2J$f5450e45-29f4-4303-9dc8-ba4b6f35b779
-r	java:S1061"+Replace this use of System.out by a logger.(î£ë²úÿÿÿÿ8ûÓÖÇ­2J$057609e2-71cf-4026-9355-9a2fff9e245f
-d	java:S1317""Add a default case to this switch.(¨ÕÉ8ıÓÖÇ­2J$0586ecd1-6b4c-4f79-a4ee-0c7301b734d7
-l	java:S106P"+Replace this use of System.out by a logger.(Êµ¢8‚ÔÖÇ­2J$3e9e8000-4bbc-4aee-ad3d-21339b02d3c5
-r	java:S106R"+Replace this use of System.out by a logger.(‚×†Õüÿÿÿÿ8‚ÔÖÇ­2J$dfb6357e-71a1-4bbd-ad1c-9f3c9a4dfe96
-m	java:S106Y"+Replace this use of System.out by a logger.(Í×Í8ƒÔÖÇ­2J$406904a2-ce95-4a04-9074-a26e2e50546a
-m	java:S106`"+Replace this use of System.out by a logger.(¨Í³8„ÔÖÇ­2J$954d4833-16e9-4b04-8797-3bf6b62d83af
-r	java:S106e"+Replace this use of System.out by a logger.(Å„É„şÿÿÿÿ8—ÔÖÇ­2J$ba9d716c-270b-4821-adfa-12be368341ad
-r	java:S106j"+Replace this use of System.out by a logger.(çÌóëøÿÿÿÿ8˜ÔÖÇ­2J$66901a03-ed1c-4ee4-8672-f254b8e42851
-m	java:S106x"+Replace this use of System.out by a logger.(öÓ˜„8›ÔÖÇ­2J$348656be-3e8e-4932-a94e-9070ccb78222
-r	java:S106{"+Replace this use of System.out by a logger.(Å„É„şÿÿÿÿ8›ÔÖÇ­2J$fd6c068c-80ac-4f01-abd5-99166db70d86
-m	java:S106€"+Replace this use of System.out by a logger.(Øü½n8œÔÖÇ­2J$1c93514c-2f56-4275-aa11-e067989d875f
-s	java:S106Œ"+Replace this use of System.out by a logger.(†·×Åûÿÿÿÿ8ŸÔÖÇ­2J$b823da6b-7e0a-4c7d-a3b2-efa64f4dd4dd
-s	java:S106"+Replace this use of System.out by a logger.(äÿ †øÿÿÿÿ8 ÔÖÇ­2J$ed2c5225-f999-43af-bcdb-45246785d5f4
-s	java:S106"+Replace this use of System.out by a logger.(­…ãøûÿÿÿÿ8£ÔÖÇ­2J$f78825f1-5478-4cce-a263-cf941cefcfd6
-s	java:S106Ÿ"+Replace this use of System.out by a logger.(»ƒâ™ûÿÿÿÿ8¤ÔÖÇ­2J$738f42dd-fd8f-4f1f-8c36-7abc574bf8d6
-n	java:S106¥"+Replace this use of System.out by a logger.(Ò†ŸÆ8¥ÔÖÇ­2J$77e47949-4d02-4195-b6a7-e26204f34dbe
-‰
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 69 to 64, Complexity from 15 to 14, Nesting Level from 3 to 2, Number of Variables from 13 to 6.(“–ış8¦ÔÖÇ­2J$f150d8cf-2cb1-4d68-9df2-aa5edc3a1dd7
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ÚÃØ²2
+r	java:S106"+Replace this use of System.out by a logger.(Ø½¢ğúÿÿÿÿ8ş§²²2J$0b234219-ff90-426b-8385-2ad973878077
+m	java:S106"+Replace this use of System.out by a logger.(Ô™ÓĞ8€¨²²2J$95aef67c-bb8c-483b-8fc6-a4e0878c00e7
