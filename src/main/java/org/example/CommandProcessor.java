@@ -18,11 +18,7 @@ public class CommandProcessor {
             case "get":
                 if (parts.length == 3) {
                     String value = cacheManager.getValue(parts[1], parts[2]);
-                    if (value != null) {
-                        System.out.println("Значение [" + parts[1] + ", " + parts[2] + "]: " + value);
-                    } else {
-                        System.out.println("Значение не найдено.");
-                    }
+                    System.out.println(value != null ? value : "Значение не найдено.");
                 } else {
                     System.out.println("Некорректный формат команды get.");
                 }

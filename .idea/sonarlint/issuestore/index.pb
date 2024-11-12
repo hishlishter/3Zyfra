@@ -28,8 +28,6 @@ X
 (src/main/java/org/example/TimerTask.java,c\2\c20d108d0afa5aaad596b3f22167f2ea52107f66
 _
 /src/test/java/org/example/CacheManagerTest.java,6\6\665e668571f5a7ab6d96c97e4191966931b34d71
-c
-3src/test/java/org/example/CommandProcessorTest.java,7\5\75d22ca1b6d115b6813ebf6e3cf974db3b2f5234
 \
 ,src/test/java/org/example/TimerTaskTest.java,a\e\ae261f3078f20f6e0fb9ca8e07eba350c26d1f9c
 H
@@ -71,6 +69,10 @@ G.idea/sonarlint/issuestore/9/0/909762385fc6eb20f922a91c6865741308b57f2c,c\e\ce
 w
 G.idea/sonarlint/issuestore/9/3/9358ee8de55f598f7ad3b3efa4789df3e1264be1,8\9\8940c6d9f8ff0fd6be01d3f9ae0ce1536a030937
 Å
-Q.idea/sonarlint/securityhotspotstore/7/5/75d22ca1b6d115b6813ebf6e3cf974db3b2f5234,b\2\b220692dba9d1faf9483f4eb683805ed8ba41f19
-Å
 Q.idea/sonarlint/securityhotspotstore/a/e/ae261f3078f20f6e0fb9ca8e07eba350c26d1f9c,6\a\6aee3d93cb242f8d2fb2f415251620277deebbe3
+T
+$src/resources/application.properties,a\f\af126b88e6b4f8d2e2a0f5059fe28a631d7ed30e
+^
+.src/main/java/org/example/CacheController.java,7\e\7e8d990e94b3bac8b1af5b4c883245af2cc0aaaf
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
