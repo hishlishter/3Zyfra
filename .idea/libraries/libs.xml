@@ -6,6 +6,12 @@
       <root url="jar://$PROJECT_DIR$/libs/junit-platform-commons-1.10.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/junit-platform-engine-1.10.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/mockito-core-5.14.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/byte-buddy-agent-1.15.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/byte-buddy-dep-1.15.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/asm-9.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/asm-analysis-9.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/asm-commons-9.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/asm-util-9.7.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
