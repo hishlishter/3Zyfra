@@ -2,15 +2,20 @@ package org.example;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.mock;
 
 public class CacheManagerTest {
     private CacheManager cacheManager;
 
     @BeforeEach
     public void setUp() {
-        cacheManager = new CacheManager();
+        // Создаем мок для CacheRepository
+        CacheRepository cacheRepository = mock(CacheRepository.class);
+        // Передаем мок в конструктор CacheManager
+        cacheManager = new CacheManager(cacheRepository);
     }
 
     @Test
@@ -27,20 +32,20 @@ public class CacheManagerTest {
 
     @Test
     public void testGetValue_InvalidData() {
-        assertNull(cacheManager.getValue("999", "name"));
+        assertEquals(null, cacheManager.getValue("3", "name"));
     }
 
     @Test
     public void testUpdateCache() {
-        cacheManager.addToCache("1", "name", "John");
-        cacheManager.updateCache("1", "UpdatedName");
-        assertEquals("UpdatedName", cacheManager.getValue("1", "name"));
+        cacheManager.addToCache("4", "status", "active");
+        cacheManager.updateCache("4", "inactive");
+        assertEquals("inactive", cacheManager.getValue("4", "status"));
     }
 
     @Test
     public void testClearCache() {
-        cacheManager.addToCache("1", "name", "John");
+        cacheManager.addToCache("5", "role", "admin");
         cacheManager.clearCache();
-        assertNull(cacheManager.getValue("1", "name"));
+        assertEquals(null, cacheManager.getValue("5", "role"));
     }
 }

@@ -23,10 +23,6 @@ Q.idea/sonarlint/securityhotspotstore/e/e/ee31ecc52bae49454c8783e26b1f0a699844dc
 [
 +src/main/java/org/example/CacheManager.java,b\d\bdf628c8464c5feccbefe080ec4341cdf1884532
 _
-/src/main/java/org/example/CommandProcessor.java,1\d\1d1a83d5668dc45d1a08272aa9aa4ebc3af4adf3
-X
-(src/main/java/org/example/TimerTask.java,c\2\c20d108d0afa5aaad596b3f22167f2ea52107f66
-_
 /src/test/java/org/example/CacheManagerTest.java,6\6\665e668571f5a7ab6d96c97e4191966931b34d71
 \
 ,src/test/java/org/example/TimerTaskTest.java,a\e\ae261f3078f20f6e0fb9ca8e07eba350c26d1f9c
@@ -76,3 +72,12 @@ $src/resources/application.properties,a\f\af126b88e6b4f8d2e2a0f5059fe28a631d7ed
 .src/main/java/org/example/CacheController.java,7\e\7e8d990e94b3bac8b1af5b4c883245af2cc0aaaf
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Y
+)src/main/java/org/example/CacheEntry.java,b\7\b7c95463b85656584150f54707545fd4f99ebf52
+^
+.src/main/java/org/example/CacheRepository.java,1\a\1ac967b17e03f11018852edf8c61e2b9c2efb056
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

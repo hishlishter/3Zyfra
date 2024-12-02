@@ -1,16 +1,16 @@
 package org.example;
 
-import org.springframework.stereotype.Component;
-
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-@Component
 public class CacheManager {
     private final Map<String, Map<String, String>> cache = new HashMap<>();
 
     public void addToCache(String objectId, String propertyId, String value) {
         cache.computeIfAbsent(objectId, k -> new HashMap<>()).put(propertyId, value);
+        System.out.println("Данные добавлены в кэш: [" + objectId + ", " + propertyId + "]");
     }
 
     public String getValue(String objectId, String propertyId) {
@@ -24,14 +24,27 @@ public class CacheManager {
             for (String key : properties.keySet()) {
                 properties.put(key, newValue);
             }
+            System.out.println("Кэш обновлен для объекта " + objectId);
+        } else {
+            System.out.println("Объект " + objectId + " не найден в кэше.");
         }
     }
 
     public void clearCache() {
         cache.clear();
+        System.out.println("Кэш очищается...");
     }
 
-    public Map<String, Map<String, String>> getAllCache() {
-        return cache;
+    // Новый метод
+    public List<CacheEntry> getAllCache() {
+        List<CacheEntry> cacheEntries = new ArrayList<>();
+        for (Map.Entry<String, Map<String, String>> objectEntry : cache.entrySet()) {
+            String objectId = objectEntry.getKey();
+            Map<String, String> properties = objectEntry.getValue();
+            for (Map.Entry<String, String> propertyEntry : properties.entrySet()) {
+                cacheEntries.add(new CacheEntry(objectId, propertyEntry.getKey(), propertyEntry.getValue()));
+            }
+        }
+        return cacheEntries;
     }
 }
