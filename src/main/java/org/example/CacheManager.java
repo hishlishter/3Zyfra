@@ -1,6 +1,8 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class CacheManager {
@@ -31,5 +33,18 @@ public class CacheManager {
     public void clearCache() {
         cache.clear();
         System.out.println("Кэш очищается...");
+    }
+
+    // Новый метод
+    public List<CacheEntry> getAllCache() {
+        List<CacheEntry> cacheEntries = new ArrayList<>();
+        for (Map.Entry<String, Map<String, String>> objectEntry : cache.entrySet()) {
+            String objectId = objectEntry.getKey();
+            Map<String, String> properties = objectEntry.getValue();
+            for (Map.Entry<String, String> propertyEntry : properties.entrySet()) {
+                cacheEntries.add(new CacheEntry(objectId, propertyEntry.getKey(), propertyEntry.getValue()));
+            }
+        }
+        return cacheEntries;
     }
 }
